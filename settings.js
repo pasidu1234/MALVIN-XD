@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "MALVIN-XD~dpB0FRqI#uNalD9e9Rji-ehs_XVflA7NdbNBu3vtrvqQze0_5KPQ",
+SESSION_ID: process.env.SESSION_ID || "MALVIN-XD~4golCZrI#b10Ro_y46mCm-LkP1h9Xf9NQFFcNjjniytUgCXfITYk",
 // add your Session Id 
 
 PREFIX: process.env.PREFIX || ".",
@@ -92,7 +92,7 @@ ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
 PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
 // make false if want private mod
 
-AUTO_TYPING: process.env.AUTO_TYPING || "true",
+AUTO_TYPING: process.env.AUTO_TYPING || "false",
 // true for automatic show typing   
 
 AUTO_RECORDING: process.env.AUTO_RECORDING || "false",
@@ -107,7 +107,7 @@ FAKE_TYPING: process.env.FAKE_TYPING || "false",
 READ_CMD: process.env.READ_CMD || "false",
 // true if want mark commands as read 
 
-DEV: process.env.DEV || "263714757857",
+DEV: process.env.DEV || "94787785311",
 //replace with your whatsapp number       
  
 ANTI_VV: process.env.ANTI_VV || "true",
